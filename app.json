@@ -38,11 +38,7 @@
       "value": "",
       "required": false
     },
-    "app_url": {
-      "description": "Which url you use for reaching the zoom api (https://api.zoom.us is default)",
-      "value": "",
-      "required": false
-    }
+ 
   },
   "scripts": {
     "postdeploy": "node ./seed.js"
