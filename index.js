@@ -12,7 +12,7 @@ pg.connect().catch((error) => {
 
 const app = express()
 const port = process.env.PORT || 4000
-const api_url = process.env.api_url || 'https://api.zoomgov.com'
+const api_url = process.env.api_url || 'https://api.zoom.us'
 
 app.use(bodyParser.json())
 
