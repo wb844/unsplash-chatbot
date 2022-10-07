@@ -37,7 +37,7 @@
       "description": "Optional, Your Zoom domain verification code, used to verify your domain name, found on your Zoom Submit page",
       "value": "",
       "required": false
-    }
+    },
     "app_url": {
       "description": "Which url you use for reaching the zoom api (https://api.zoom.us is default)",
       "value": "",
